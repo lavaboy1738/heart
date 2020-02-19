@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heart {
+    margin: 100px;
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.heart:hover {
+    transform: scale(1.2);
+}
+
+div > div{
+    border: 1px solid red;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.left, .right{
+    border-radius: 50%;
+    position: absolute;
+}
+
+.bottom {
+    transform: rotate(45deg);
+}
+
+.left {
+    bottom: 38px;
+    right: 38px;
+}
+
+.right {
+    bottom: 38px;
+    left: 38px;
+}
+
